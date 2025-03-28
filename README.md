@@ -9,4 +9,4 @@ Fourth layer maxpool kernal 2*2 and stride =2. Reduces each dimention by half
 layer4 output = (16,16,128)
 
 
-Model showed 80% accuracy.
+Model showed 80.06% accuracy. 
