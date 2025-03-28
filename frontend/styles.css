@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    
+}
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+h1 {
+    color: #333;
+}
+#preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: none;
+}
+.file-input {
+    margin: 10px 0;
+}
+button {
+    background-color: #707070;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #000000;
+}
+.loading {
+    display: none;
+    font-size: 16px;
+    color: #666;
+}
+.result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.error {
+    color: red;
+    font-size: 16px;
+}
+#preview{
+    max-width: 300px;
+    margin:auto
+}
